@@ -15,10 +15,7 @@ import kotlinx.android.synthetic.main.activity_main.*
 import kotlinx.android.synthetic.main.activity_menu.*
 import java.text.SimpleDateFormat
 import java.time.LocalDate
-import java.time.Month
-import java.time.MonthDay
 import java.time.Period
-import java.time.Year
 import java.util.*
 
 class MenuActivity : AppCompatActivity() {
