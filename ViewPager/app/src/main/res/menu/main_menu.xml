@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn = "navigation_view">
+
+    <group
+        android:id="@+id/group1"
+        android:checkableBehavior="single">
+        <item
+            android:icon="@drawable/ic_sun"
+            android:title="Weather"
+            android:id="@+id/weather"/>
+        <item
+            android:icon="@drawable/ic_movie"
+            android:title="Movie"
+            android:id="@+id/movie"/>
+    </group>
+    <group
+        android:id="@+id/group2"
+        android:checkableBehavior="single">
+        <item
+            android:icon="@drawable/ic_settings"
+            android:title="Settings"
+            android:id="@+id/settings"/>
+        <item
+            android:icon="@drawable/ic_about"
+            android:title="About"
+            android:id="@+id/about"/>
+    </group>
+</menu>
